@@ -12,11 +12,12 @@ class Solution:
         if k <= 0:
             return None
         h1 = head
-        while k and h1 :
+        while k and h1:
             h1 = h1.next
             k -= 1
         if k != 0:
             return None
+
         while h1:
             h1 = h1.next
             head = head.next
