@@ -1,6 +1,7 @@
-# Definition for a binary tree node.
-# 判断二叉树是否是镜像
+# -*- coding:utf-8 -*-
+# 思路：判断二叉树是否是镜像，递归，判断左右，右左
 
+# Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
 #         self.val = x

@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-# 连续子数组的最大乘积
+# 思路: dp问题, 连续子数组的最大乘积
 class Solution(object):
     def maxProduct(self, nums):
         """

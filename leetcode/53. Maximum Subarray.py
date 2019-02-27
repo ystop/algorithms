@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-# 连续子数组的最大和
+# 思路: dp问题，连续子数组的最大和
 class Solution(object):
     def maxSubArray(self, nums):
         """
