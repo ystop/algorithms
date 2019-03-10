@@ -17,7 +17,6 @@ class Solution:
         stack = []
         node = pRoot
         ret = []
-
         while stack or node:
             while node:
                 stack.append(node)

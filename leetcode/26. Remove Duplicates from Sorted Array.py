@@ -1,5 +1,6 @@
 # -*- coding:utf-8 -*-
 # 思路: 有序数组，题目要求前面是不重复的元素，并返回有几个数（下标+1）。 思路双指针，交换。
+
 class Solution(object):
     def removeDuplicates(self, nums):
         """
