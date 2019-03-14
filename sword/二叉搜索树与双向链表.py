@@ -8,5 +8,22 @@
 #         self.left = None
 #         self.right = None
 class Solution:
+    def __init__(self):
+        self.head = None
+        self.tail = None
+
     def Convert(self, pRootOfTree):
         # write code here
+        if not pRootOfTree:
+            return None
+        self.Convert(pRootOfTree.left)
+        if self.head is None:
+            self.head = pRootOfTree
+            self.tail = pRootOfTree
+        else:
+            self.tail.right = pRootOfTree
+            pRootOfTree.left = self.tail
+            self.tail = pRootOfTree
+
+        self.Convert(pRootOfTree.right)
+        return self.head
